@@ -1,3 +1,5 @@
+const path = require('path');
+
 module.exports = {
     env: {
         browser: true,
@@ -13,5 +15,14 @@ module.exports = {
     rules: {
         indent: ['error', 4],
         'no-param-reassign': [2, { props: false }],
+        'vue/no-multiple-template-root': 0,
+    },
+    settings: {
+        'import/resolver': {
+            alias: {
+                map: [['@', path.resolve(__dirname, 'src')]],
+                extensions: ['.js', '.vue', 'ts'],
+            },
+        },
     },
 };
