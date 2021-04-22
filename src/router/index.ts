@@ -1,6 +1,6 @@
 import { createRouter, createMemoryHistory, RouteRecordRaw } from 'vue-router';
-import Home from '@/views/home.vue'
-import Vuex from '@/views/vuex.vue'
+import Home from '@/views/home.vue';
+import Vuex from '@/views/vuex.vue';
 
 const routes: Array<RouteRecordRaw> = [
     {
@@ -14,11 +14,12 @@ const routes: Array<RouteRecordRaw> = [
     }, {
         path: '/axios',
         name: 'Axios',
-        component: () => import('@/views/axios.vue')
-    }
+        component: () => import('@/views/axios.vue'),
+    },
 ];
 
-export const router = createRouter({
+const router = createRouter({
     history: createMemoryHistory(),
     routes,
 });
+export default router;
