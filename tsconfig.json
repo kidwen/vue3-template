@@ -26,6 +26,7 @@
         "src/**/*.tsx",
         "src/**/*.vue"
     ],
+    "isolatedModules": true,
     "files": [
         "src/main.ts",
     ]

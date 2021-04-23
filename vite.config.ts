@@ -14,8 +14,8 @@ export default defineConfig({
     server: {
         port: 4000, // 设置服务器启动端口号
         open: true, // 设置服务器启动时是否自动打开浏览器
+        hmr: true, // 启用热更新
         cors: true, // 允许跨域
-
         // 设置代理,根据我们项目实际情况配置
         // proxy: {
         //   '/api': {
