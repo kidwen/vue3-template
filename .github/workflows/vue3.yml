@@ -14,4 +14,7 @@ jobs:
           node-version: '15.x'
       
       - name: insatll
-        run: yarn
+        run: yarn -v && yarn
+
+      - name: lint
+        run: yarn lint
