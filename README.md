@@ -1,3 +1,5 @@
+![CI][CI]
+
 # Vue 3 + Typescript + Vite
 
 This template should help get you started developing with Vue 3 and Typescript in Vite.
@@ -54,3 +56,6 @@ Run `Volar: Switch TS Plugin on/off` from VSCode command palette.
 1. `git add .`
 
 1. `git cz`
+
+
+[CI]: https://github.com/kidwen/vue3-template/workflows/vue3/badge.svg
