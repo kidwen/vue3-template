@@ -59,3 +59,8 @@ Run `Volar: Switch TS Plugin on/off` from VSCode command palette.
 
 
 [CI]: https://github.com/kidwen/vue3-template/workflows/code-check/badge.svg
+
+## License
+
+[MIT](https://github.com/kidwen/vue3-template/blob/dev/LICENSE)
+
